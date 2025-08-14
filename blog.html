@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style5.css">
+    <link rel="stylesheet" href="mq.css">
+</head>
+<style>
+
+.images img{
+    opacity: 0.6;
+    height: 500px;
+    overflow: hidden;
+}
+.images{
+    position: relative;
+    margin-bottom: 100px;
+}
+.image{
+    background: #000;
+}
+.image-text{
+    position: absolute;
+    top: 40%;
+    left: 0%;
+    right: 0%;
+    text-align: center;
+}
+.image-text h2{
+    color: white;
+    font-weight: 400;
+    font-size: 55px;
+    margin-bottom: 0px;
+}
+.image-text p{
+    color: white;
+    font-size: 19px;
+}
+.image-text p a{
+    text-decoration: underline;
+}
+
+.bloks{
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+    margin-bottom: 80px;
+}
+.one{
+    border: 0.5px solid #ccc;
+    padding: 5px 12px;
+}
+span{
+    font-weight: 400;
+}
+.P p{
+    border: 0.5px solid #ccc;
+    padding: 5px 12px;
+}
+.Pn p{
+    border: 0.5px solid #ccc;
+    padding: 5px 12px;
+}
+.Pn p:hover{
+    transition: 0.2s ease;
+    background: #ece9e9;
+}
+.one:hover{
+    transition: 0.2s ease;
+    background: #ece9e9;
+}
+.dark{
+    background: #007bff;
+    padding: 5px 12px;
+    color: white;
+    border: 0.5px solid #007bff;
+}
+.blue{
+    color: #007bff;
+}
+.blue{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+</style>
+<body>
+    <div class="website-top-bar">
+        <div class="cantainer">
+            <div class="grid">
+                <div class="column-x1">
+                    <div class="logo-wrapper">
+                        <img src="https://rizwan-sarwar.github.io/encon/images/logo/logo.png" alt="brand-logo">
+                    </div>
+                </div>
+                <div class="column-x3">
+                    <div class="grid-social-links">
+                        <div class="column-social">
+                            <div class="grid-single-social">
+                                <div class="column-sin-col">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                                    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+                                    </svg>
+                                </div>
+                                <div class="column-sin-col">
+                                    <span>Karachi</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column-social">
+                            <div class="grid-single-social">
+                                <div class="column-sin-col">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+                                      </svg>
+                                </div>
+                                <div class="column-sin-col">
+                                    <span>+92123456789</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column-social">
+                            <div class="grid-single-social">
+                                <div class="column-sin-col">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                                        <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
+                                      </svg>
+                                </div>
+                                <div class="column-sin-col">
+                                    <span>info@abc.com.pk</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="nav">
+    <div class="cantainer">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about us .html">About us</a></li>
+            <li><a href="our project.html">Our projects</a></li>
+            <li><a href="testimonial.html">Testimonial</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+ </div>
+ <div class="images">
+    <div class="image">
+    <img src="https://rizwan-sarwar.github.io/encon/images/slider/slider.jpg" alt="slider">
+ </div>
+ <div class="image-text">
+    <h2>Our Blogs</h2>
+    <p>
+        <a href="index.html">Home</a>/ Blog
+    </p>
+ </div>
+ </div>
+ <div class="blogss">
+    <div class="cantainer">
+        <div class="blog-bottom">
+        <div class="blog">
+            <div class="blog-image">
+            <img src="https://rizwan-sarwar.github.io/encon/images/blog/blog1.jpg">
+            </div>
+            <h3>Top Companies That Are Best In Industrial Business</h3>
+            <p>Posted by <a href="#">Admin</a> In <A href="#">News</A></p>
+        </div>
+        <div class="blog"> 
+            <div class="blog-image">
+            <img src="https://rizwan-sarwar.github.io/encon/images/blog/blog1.jpg">
+            </div>
+            <h3>Top Companies That Are Best In Industrial Business</h3>
+            <p>Posted by <a href="#">Admin</a> In <A href="#">News</A></p></div>
+        <div class="blog">
+             <div class="blog-image">
+            <img src="https://rizwan-sarwar.github.io/encon/images/blog/blog1.jpg">
+            </div>
+            <h3>Top Companies That Are Best In Industrial Business</h3>
+            <p>Posted by <a href="#">Admin</a> In <A href="#">News</A></p>
+        </div>
+        </div>
+    </div>
+</div>
+<div class="blogss">
+    <div class="cantainer">
+        <div class="blog-bottom">
+        <div class="blog">
+            <div class="blog-image">
+            <img src="https://rizwan-sarwar.github.io/encon/images/blog/blog1.jpg">
+            </div>
+            <h3>Top Companies That Are Best In Industrial Business</h3>
+            <p>Posted by <a href="#">Admin</a> In <A href="#">News</A></p>
+        </div>
+        <div class="blog"> 
+            <div class="blog-image">
+            <img src="https://rizwan-sarwar.github.io/encon/images/blog/blog1.jpg">
+            </div>
+            <h3>Top Companies That Are Best In Industrial Business</h3>
+            <p>Posted by <a href="#">Admin</a> In <A href="#">News</A></p></div>
+        <div class="blog">
+             <div class="blog-image">
+            <img src="https://rizwan-sarwar.github.io/encon/images/blog/blog1.jpg">
+            </div>
+            <h3>Top Companies That Are Best In Industrial Business</h3>
+            <p>Posted by <a href="#">Admin</a> In <A href="#">News</A></p></div>
+        </div>
+    </div>
+</div>
+<div class="bloks">
+    <div class="P">
+        <p>Previous</p>
+    </div>
+    <div class="blue">
+    <div class="one">
+        <span>1</span>
+    </div>
+    <div class="one">
+        <span>2</span>
+    </div>
+    <div class="dark">
+        <span>3</span>
+    </div>
+    <div class="one">
+        <span>4</span>
+    </div>
+    <div class="one">
+        <span>5</span>
+    </div>
+    <div class="Pn">
+        <p>Next</p>
+    </div>
+    </div>
+</div>
+<div class="subscribe">
+    <div class="subscribe-left">
+        <h3>Subscribe To Newsletter</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, reprehenderit!</p>
+    </div>
+    <div class="subscribe-right">
+        <form action>
+            <input type="text" class="text">
+            <input type="submit" value="Subscribe" class="submit">
+        </form>
+    </div>
+</div>
+<footer>
+    <div class="footer-top">
+    <div class="footer-grid">
+        <p><img src="https://rizwan-sarwar.github.io/encon/images/logo/logo.png"></p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nemo minima qui dolor, iusto iure.</p>
+        <p><a href="#">learn more</a></p>
+    </div>
+    <div class="footer-grid">
+        <h3><span>OUR COMPANY</span></h3>
+        <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Our Teams</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Projects</a></li>
+        </ul>
+    </div>
+    <div class="footer-grid">
+        <h3><span>OUR SERVICES</span></h3>
+        <ul>
+            <li><a href="#">Industrial</a></li>
+            <li><a href="#">Constructions</a></li>
+            <li><a href="#">Remodeling</a></li>
+        </ul>    
+    </div>
+    <div class="footer-grid">
+        <h3><span>OUR COMPANY</span></h3>
+        <ul>
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">Support Community</a></li>
+            <li><a href="#">Press</a></li>
+            <li><a href="#">FAQS</a></li>
+            <li><a href="#">Our Partners</a></li>
+        </ul>    
+    </div>
+    </div>
+    <div class="footer-bottom">
+        <p>Copyright ©2020 All rights reserved | This template is made with <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-suit-heart-fill" viewBox="0 0 16 16">
+            <path d="M4 1c2.21 0 4 1.755 4 3.92C8 2.755 9.79 1 12 1s4 1.755 4 3.92c0 3.263-3.234 4.414-7.608 9.608a.513.513 0 0 1-.784 0C3.234 9.334 0 8.183 0 4.92 0 2.755 1.79 1 4 1"/>
+          </svg> by Haider Ali</p>
+    </div>
+</footer>
+</body>
+</html>
